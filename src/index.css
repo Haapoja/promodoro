@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.app-content{
+  width:600px;
+  
+  margin-top:100px;
+  padding:40px;
+
+}
+.control-row{
+  margin-bottom: 8px;
+}
+.form-control{
+  margin:auto;
+  margin-left:50%;
+
+}
+@media (max-width:650px){  /*fullscreen when less than 650px */
+  .app-content{
+    margin:20px 20px 0;
+    width: auto;
+  }
+}
+.align-vertically {
+  display: flex;
+  align-items: center;
+}
